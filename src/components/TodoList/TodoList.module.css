@@ -1,0 +1,46 @@
+/* .div{
+    display: inline;
+    background-color: white;
+} */
+.p{
+    margin-left: 10px;
+    margin-right:10px ;
+    background-color: white;
+    color: black;
+    font-size: 1.5rem;
+    display: inline;
+    overflow-wrap: break-word;
+}
+.form{
+   margin-top: 40px;
+   display: inline-block;
+   box-sizing: border-box;
+   padding: 10px;
+   margin: 10px;
+   width: 50vw;
+   background-color: white;
+   border-radius: 10px;
+   text-align: left;
+}
+.button{
+    background-color: white;
+    border-style: none;
+    font-size: 1.5rem;
+    padding: 10px;
+    margin: 10px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    outline-style: none;
+    color: red;
+    font-weight: bold;
+}
+/* .input{
+    height: 2rem;
+    width: 2rem;
+    padding: 10px;
+    margin: 10px;
+    vertical-align: middle;
+}
+.completed{
+    text-decoration: line-through;
+} */
