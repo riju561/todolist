@@ -9,7 +9,7 @@ const deleteTodo=(state,action)=>{
     return updateObject(state,{todos:updatedArray});
 }
 const completeTodo=(state,action)=>{
-    return updateObject(state,{todos:state.todos.concat({id:new Date(),value:action.value,completed:true})});
+    return updateObject(state,{todos:state.todos.concat({id:new Date(),value:action.value,completed:!action.completed})});
 }
 const reducer=(state=initialState,action)=>{
     switch(action.type){
