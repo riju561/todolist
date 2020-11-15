@@ -1,4 +1,4 @@
-import React, { Component, useRef } from 'react';
+import React, { Component} from 'react';
 import styles from './TodoAdder.module.css';
 import { storeTodo } from '../../store/actions/todo';
 import { connect } from 'react-redux';

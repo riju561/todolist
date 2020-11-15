@@ -11,9 +11,16 @@ export const deleteTodo=(id)=>{
         TdElId:id
     }
 }
-export const completeTodo = (id) => {
+export const complete = (id,value) => {
     return {
         type: actionTypes.COMPLETE_TODO,
-        TdElId: id
+        TdElId: id,
+        value: value
+    }
+}
+export const completeTodo=(id,value)=>{
+    return function(dispatch){
+        dispatch(complete(id,value));
+        dispatch(deleteTodo(id));
     }
 }

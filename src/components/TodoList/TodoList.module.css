@@ -40,7 +40,8 @@
     padding: 10px;
     margin: 10px;
     vertical-align: middle;
-}
+} */
 .completed{
     text-decoration: line-through;
-} */
+    background-color: #ccc;
+}
